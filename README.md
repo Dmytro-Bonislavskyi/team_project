@@ -1,96 +1,109 @@
-# Team Project
+# DSI-Team-16-p-1
+# Infrastructure & Transportation Project: US Accident Data
 
-## Description
-The team project consists of two modules. Each module requires participants to apply the skills they have learned to date, and explore a dataset of their choosing. The first part of the team project involves creating a simple program with a database in order to analyze a dataset from an open source, such as Kaggle. In the second part of the team project, teams will come together again and apply the skills developed in each of the data science or machine learning foundations certificate streams. Teams will either create a data visualization or a machine learning model.
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Data](#data)
+- [Key Questions](#key-questions)
+- [Workflow and Rules of Engagement](#workflow-and-rules-of-engagement)
+- [Implementation](#implementation)
+- [Deliverables](#deliverables)
+- [Project Structure](#project-structure)
+- [File Structure](#file-structure)
+- [Team Members](#team-members)
+- [Video Presentations](#video-presentations)
 
-Participants will work in assigned teams of 4-5. 
+## Project Overview
+This project leverages the US Accident Data from Kaggle to analyze road accidents across the United States, with a focus on predicting the number of car accidents in Los Angeles based on weather conditions. By examining data over seven years, we aim to identify patterns and insights that can inform infrastructure improvements and enhance transportation safety. Our goal is to understand how weather conditions impact accident rates in Los Angeles, thereby aiding in the development of better public safety measures and preparedness for adverse weather.
 
-#### Project Descriptions
+## Data
+In this project, the US Accident Data from Kaggle is used, which provides detailed information on accidents, their locations, weather conditions, and impacts. The dataset has been simplified to focus exclusively on car accidents in Los Angeles.
 
-* [First Team Project Description](./team_project_1.md)
-* [Second Team Project Description](./team_project_2.md)
+### Dataset Details
+- **Source**: [Kaggle](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents?resource=download)
+- **Coverage**: March 22, 2016 to March 31, 2023
+- **Features**:
+   - Weather conditions (temperature, humidity, precipitation, wind speed, etc.)
+   - Number of car accidents per day in Los Angeles
 
-## Learning Outcomes
-By the end of Team Project Module 1, participants will be able to:
-* Resolve merge conflicts
-* Describe common problems or challenges a team encounters when working collaboratively using Git and GitHub
-* Create a program to analyze a dataset with contributions from multiple team members
+## Key Questions
+1. (Primary) How does weather impact accident rates?
+2. (Secondary) What are the most common causes of accidents?
+3. (Secondary) What times of day are most accidents likely to occur?
 
-By the end of Team Project Module 2, participants will be able to:
-* Create a data visualization as a team
-* Create a machine learning model as a team
+## Workflow and Rules of Engagement
+The project workload was distributed among the team as follows:
+- Dmytro Bonislavskyi - work with repository(create project, update, and resolving conflicts), create map visualisation.
+- Yihui	Zhu - prepare cross validation method.
+- Ibrahim Assi - implement regression model analysis.
+- Mario	Klaes - prepare the DataFrame to be used in the model
+- Kostiantyn Koval - create and fill in README file
 
-### Contacts
-**Questions can be submitted to the _#cohort-3-help_ channel on Slack**
+## Implementation
+1. **Data Exploration**:
+   - Understand the structure and primary focus of the dataset.
+   - Identify potential relationships in the data.
 
-* Technical Facilitator: 
-  * **Phil Van-Lane**(he/him)
-  phil.vanlane@mail.utoronto.ca
+2. **Analysis and Modeling**:
+   - Answer selected questions using exploratory data analysis (EDA) and regression models.
+   - Document findings and insights.
 
-* Learning Support Staff:
-  * **Taneea Agrawaal** (she/her)
-  taneea@cs.toronto.edu
-  * **Farzaneh Hashemi** (she/her )
-  fhashemi.ma@gmail.com
-  * **Tong Su** (she/her)
-  tong.su@mail.utoronto.ca
+3. **Collaboration**:
+   - Use GitHub for version control and collaboration.
+   - Create and merge pull requests.
+   - Write detailed pull request descriptions.
 
-### Delivery of Team Project Modules
+## Deliverables
+- **Exploratory Data Analysis (EDA)**
+- **Regression Models**
+- **Pull Requests (PRs)**
+- **README file**
+- **Individual Learning Videos**
 
-Each Team Project module will include two live learning sessions and one case study presentation. During live learning sessions, facilitators will introduce the project, walk through relevant examples, and introduce various team skills that support project success. The remaining time will be used for teams to assemble and work on their projects, as well as get help from the facilitator or the learning support to troubleshoot any issues a team may be encountering. 
+## Project Structure
+The project is divided into two sprints:
 
-Work periods will also be used as opportunities for teams to collaborate and work together, while accessing learning support. 
+### Sprint 1: Propose and Select Dataset
+1. **Propose a dataset**: Each team member suggests a dataset for the project.
+2. **Define one dataset to work on**: Review proposed datasets and select the most suitable one (US Accident Data).
 
-### Schedule
+### Sprint 2: Explore Dataset and Define Scope
+1. **Explore the dataset**:
+   - **Primary focus**: Understand the main focus of the dataset.
+   - **Explore relationships**: Identify and document potential relationships in the data.
+   - **Prepare Data**: Simplify the dataset to focus on Los Angeles.
+2. **Model Development**:
+   - **Select appropriate regression models**
+   - **Split data into training and testing sets.**
+   - **Train models and tune hyperparameters.**
+3. **Model Evaluation**
+   - **Evaluate models using relevant metrics (MAE, MSE, R²).**
+   - **Compare model performance and select the best model.**
 
-|Day 1|Day 2|Day 3|Day 4|Day 5|
-|-----|-----|-----|-----|-----|
-|Live Learning Session |Live Learning Session|Case Study|Work Period|Work Period|
+## File Structure
 
-## Requirements
-* Participants are expected to attend live learning sessions and the case study as part of the learning experience. Participants are encouraged to use the scheduled work period time to complete their projects.
-* Participants are encouraged to ask questions and collaborate with others to enhance learning.
-* Participants must have a computer and an internet connection to participate in online activities.
-* Participants must not use generative AI such as ChatGPT to generate code to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
-* We expect participants to have completed the [onboarding repo](https://github.com/UofT-DSI/onboarding/tree/main/onboarding_documents).
-* We encourage participants to default to having their camera on at all times, and turning the camera off only as needed. This will greatly enhance the learning experience for all participants and provides real-time feedback for the instructional team. 
+- **team_project/**: Root folder of the project
+  - **data/**: Contains all the datasets used in the project.
+    - **raw/**: Original datasets.
+      - **Filtered_US_Accidents_CA.csv**: dataset that contain gps data needed for visualisation
+      - **Visualization.ipynb**: map with all accidents marked
+    - **processed/**: Processed datasets for analysis.
+      - **Los_Angeles_Accidents_2016_2023.csv**: prepared dataset to be used in the model 
+      - **projec_process.ipynb**: prepares data to be used in the model
+  - **Catherine.ipynb**: cross-validation model
+  - **project_regression.ipynb**: regression model
+  - **README.md**: info about the project
 
-### How to get help
-![image](/steps-to-ask-for-help.png)
+## Team Members
+- Mario	Klaes	
+- Dmytro Bonislavskyi	
+- Ibrahim Assi	
+- Yihui	Zhu	
+- Kostiantyn Koval	
 
-## Folder Structure
-
-### Project 1
-```markdown
-|-- data
-|---- processed
-|---- raw
-|---- sql
-|-- reports
-|-- src
-|-- README.md
-|-- .gitignore
-```
-
-### Project 2
-```markdown
-|-- data
-|---- processed
-|---- raw
-|---- sql
-|-- experiments
-|-- models
-|-- reports
-|-- src
-|-- README.md
-|-- .gitignore
-```
-
-* **Data:** Contains the raw, processed and final data. For any data living in a database, make sure to export the tables out into the `sql` folder, so it can be used by anyone else.
-* **Experiments:** A folder for experiments
-* **Models:** A folder containing trained models or model predictions
-* **Reports:** Generated HTML, PDF etc. of your report
-* **src:** Project source code
-* README: This file!
-* .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
-
+## Video Presentations
+- Mario	Klaes: [Link to video](https://drive.google.com/drive/folders/18qlROMeoctgqyvcRID3QZaMIwwFjAdy4?usp=sharing)
+- Dmytro Bonislavskyi: [Link to video](https://drive.google.com/file/d/1uyA7UrDtwuNZbuEx5-96M27VAoFoDW22/view?usp=sharing)
+- Ibrahim Assi: [Link to video](https://drive.google.com/file/d/19pSBsEf6iRjc8oyOMNAnHxtT83Qh0z1J/view?usp=sharing)
+- Yihui	Zhu: [Link to video](https://drive.google.com/file/d/11Q5KD9LheuuaCGjciBFDE_aBw0QwuNl2/view?usp=sharing)
+- Kostiantyn Koval: [Link to video]()
