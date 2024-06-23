@@ -102,4 +102,8 @@ The project is divided into two sprints:
 - Kostiantyn Koval	
 
 ## Video Presentations
-Each team member will create a video about their learnings and experience from this project. These videos will be compiled and shared in this repository.
+- Mario	Klaes: [Link to video](https://drive.google.com/drive/folders/18qlROMeoctgqyvcRID3QZaMIwwFjAdy4?usp=sharing)
+- Dmytro Bonislavskyi: [Link to video](https://drive.google.com/file/d/1uyA7UrDtwuNZbuEx5-96M27VAoFoDW22/view?usp=sharing)
+- Ibrahim Assi: [Link to video](https://drive.google.com/file/d/19pSBsEf6iRjc8oyOMNAnHxtT83Qh0z1J/view?usp=sharing)
+- Yihui	Zhu: [Link to video](https://drive.google.com/file/d/11Q5KD9LheuuaCGjciBFDE_aBw0QwuNl2/view?usp=sharing)
+- Kostiantyn Koval: [Link to video]()
