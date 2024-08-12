@@ -101,9 +101,16 @@ The project is divided into two sprints:
 - Yihui	Zhu	
 - Kostiantyn Koval	
 
-## Video Presentations
+## Video Presentations (Project 1)
 - Mario	Klaes: [Link to video](https://drive.google.com/drive/folders/18qlROMeoctgqyvcRID3QZaMIwwFjAdy4?usp=sharing)
 - Dmytro Bonislavskyi: [Link to video](https://drive.google.com/file/d/1uyA7UrDtwuNZbuEx5-96M27VAoFoDW22/view?usp=sharing)
 - Ibrahim Assi: [Link to video](https://drive.google.com/file/d/19pSBsEf6iRjc8oyOMNAnHxtT83Qh0z1J/view?usp=sharing)
 - Yihui	Zhu: [Link to video](https://drive.google.com/file/d/11Q5KD9LheuuaCGjciBFDE_aBw0QwuNl2/view?usp=sharing)
 - Kostiantyn Koval: [Link to video](https://drive.google.com/file/d/1SUGuGANHnDHDXsH2qrr0JavMQ5ydbIJ8/view?usp=sharing)
+
+## Video Presentations (Project 2)
+- Mario	Klaes: [Link to video](https://drive.google.com/drive/folders/1afjtVXDJHdqQb0FWYnuBA-LSsKd6J-QQ?usp=sharing)
+- Dmytro Bonislavskyi: [Link to video]()
+- Ibrahim Assi: [Link to video]()
+- Yihui	Zhu: [Link to video]()
+- Kostiantyn Koval: [Link to video]()
