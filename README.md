@@ -52,7 +52,7 @@ The project is divided into two sprints:
 - **Individual Learning Videos**
 
 ## Team Members
-- Mario	Klaes	
+- Mario Klaes	
 - Dmytro	Bonislavskyi	
 - Ibrahim	Assi	
 - Yihui	Zhu	
@@ -61,5 +61,9 @@ The project is divided into two sprints:
 ## Video Presentations
 Each team member will create a video about their learnings and experience from this project. These videos will be compiled and shared in this repository.
 
-
+- Mario Klaes (video): https://drive.google.com/drive/folders/1afjtVXDJHdqQb0FWYnuBA-LSsKd6J-QQ?usp=sharing
+- Dmytro	Bonislavskyi	
+- Ibrahim	Assi	
+- Yihui	Zhu	
+- Kostiantyn Koval	
 
