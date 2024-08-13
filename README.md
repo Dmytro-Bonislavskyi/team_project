@@ -110,7 +110,7 @@ The project is divided into two sprints:
 
 ## Video Presentations (Project 2)
 - Mario	Klaes: [Link to video](https://drive.google.com/drive/folders/1afjtVXDJHdqQb0FWYnuBA-LSsKd6J-QQ?usp=sharing)
-- Dmytro Bonislavskyi: [Link to video]()
+- Dmytro Bonislavskyi: [Link to video](https://drive.google.com/file/d/19GTUdNVjt7_wA8mqtUuqALlqKs4x0Ff3/view?usp=drive_link)
 - Ibrahim Assi: [Link to video](https://drive.google.com/file/d/1GdZkCu0SU3DUC_JmvCm5nqeh3hsKEPCw/view?usp=sharing)
 - Yihui	Zhu: [Link to video](https://drive.google.com/file/d/1Xt4-4pRKgonygnagrWE5wF3E8ZQg3RFd/view?usp=sharing)
 - Kostiantyn Koval: [Link to video]()
