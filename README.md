@@ -28,7 +28,7 @@ In this project, the US Accident Data from Kaggle is used, which provides detail
 
 ## Key Questions
 1. (Primary) How does weather impact accident rates?
-2. (Secondary) What are the most common causes of accidents?
+2. (Secondary) What are the most common places of accidents?
 3. (Secondary) What times of day are most accidents likely to occur?
 
 ## Workflow and Rules of Engagement
@@ -90,7 +90,21 @@ The project is divided into two sprints:
     - **processed/**: Processed datasets for analysis.
       - **Los_Angeles_Accidents_2016_2023.csv**: prepared dataset to be used in the model 
       - **projec_process.ipynb**: prepares data to be used in the model
-  - **Catherine.ipynb**: cross-validation model
+  - **Experiments/**: Contains different models.
+      - **Catherine Project 2.ipynb**: 
+      - **Catherine.ipynb**: cross-validation model
+      - **ml_model.ipynb**: 
+      - **model_dmytro.ipynb**:
+      - **model_kostiantyn.ipynb**: 
+      - **project_regression.ipynb**:
+  - **reports/**:
+      - **predicted_vs_actual_2_RF_LA_Accidents.png**:
+      - **predicted_vs_actual_RF_LA_Accidents.png**: 
+      - **Screenshot 2024-08-10 064933.png**:
+      - **predicted_vs_actual_RF_LA_Accidents.png**: 
+
+
+
   - **project_regression.ipynb**: regression model
   - **README.md**: info about the project
 
@@ -113,4 +127,4 @@ The project is divided into two sprints:
 - Dmytro Bonislavskyi: [Link to video](https://drive.google.com/file/d/19GTUdNVjt7_wA8mqtUuqALlqKs4x0Ff3/view?usp=drive_link)
 - Ibrahim Assi: [Link to video](https://drive.google.com/file/d/1GdZkCu0SU3DUC_JmvCm5nqeh3hsKEPCw/view?usp=sharing)
 - Yihui	Zhu: [Link to video](https://drive.google.com/file/d/1Xt4-4pRKgonygnagrWE5wF3E8ZQg3RFd/view?usp=sharing)
-- Kostiantyn Koval: [Link to video]()
+- Kostiantyn Koval: [Link to video]((https://drive.google.com/file/d/1thniOrI4PPm1inR6it7eVEff754tm84-/view?usp=drive_link))
