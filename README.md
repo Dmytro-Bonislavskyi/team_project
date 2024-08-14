@@ -113,4 +113,4 @@ The project is divided into two sprints:
 - Dmytro Bonislavskyi: [Link to video](https://drive.google.com/file/d/19GTUdNVjt7_wA8mqtUuqALlqKs4x0Ff3/view?usp=drive_link)
 - Ibrahim Assi: [Link to video](https://drive.google.com/file/d/1GdZkCu0SU3DUC_JmvCm5nqeh3hsKEPCw/view?usp=sharing)
 - Yihui	Zhu: [Link to video](https://drive.google.com/file/d/1Xt4-4pRKgonygnagrWE5wF3E8ZQg3RFd/view?usp=sharing)
-- Kostiantyn Koval: [Link to video]()
+- Kostiantyn Koval: [Link to video](https://drive.google.com/file/d/1thniOrI4PPm1inR6it7eVEff754tm84-/view?usp=drive_link)
