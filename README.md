@@ -8,10 +8,14 @@
 - [Workflow and Rules of Engagement](#workflow-and-rules-of-engagement)
 - [Implementation](#implementation)
 - [Deliverables](#deliverables)
-- [Project Structure](#project-structure)
+- [Project Structure. part 1](#project-structure-part-1)
+- [Project Structure. part 2](#project-structure-part-2)
 - [File Structure](#file-structure)
 - [Team Members](#team-members)
-- [Video Presentations](#video-presentations)
+- [Video Presentations (Project 1)](#video-presentations-project-1)
+- [Video Presentations (Project 2)](#video-presentations-project-2)
+
+
 
 ## Project Overview
 This project leverages the US Accident Data from Kaggle to analyze road accidents across the United States, with a focus on predicting the number of car accidents in Los Angeles based on weather conditions. By examining data over seven years, we aim to identify patterns and insights that can inform infrastructure improvements and enhance transportation safety. Our goal is to understand how weather conditions impact accident rates in Los Angeles, thereby aiding in the development of better public safety measures and preparedness for adverse weather.
@@ -91,38 +95,53 @@ The first part of the project is divided into two sprints:
 1. **Refine the predictors and change the approach for imputation of missing values**
 2. **Experimented with different models**
 3. **Feature impact and explanation**
+
 ## File Structure
 
-- **team_project/**: Root folder of the project
-  - **data/**: Contains all the datasets used in the project.
-    - **raw/**: Original datasets.
-      - **Filtered_US_Accidents_CA.csv**: dataset that contain gps data needed for visualisation
-      - **Visualization.ipynb**: map with all accidents marked
-    - **processed/**: Processed datasets for analysis.
-      - **Los_Angeles_Accidents_2016_2023.csv**: prepared dataset to be used in the model 
-      - **LA_Accidents.csv**: prepares data to be used in the model (with weather hourly split)
-      - **Los_Angeles_Accidents_Agreagated_2016_2023.csv**
-      - **Los_Angeles_Accidents_Complete_2016_2023.csv**
-      - **projec_process.ipynb**
-- **Experiments/**: Contains different models.
-      - **Catherine Project 2.ipynb**
-      - **Catherine.ipynb**: cross-validation model
-      - **ml_model.ipynb**
-      - **model_dmytro.ipynb**: Regression and Random Forest models with researching dependencies of accidents with the time of day in combination with weather and other conditions at a certain hour
-      - **model_kostiantyn.ipynb**
-      - **project_regression.ipynb**: regression model
-- **reports/**:
-      - **predicted_vs_actual_2_RF_LA_Accidents.png**: Predictions vs ground truth with Random Forest plot 2
-      - **predicted_vs_actual_RF_LA_Accidents.png**: Predictions vs ground truth with Random Forest plot 1
-      - **Screenshot 2024-08-10 064933.png**: Visualization of accident density clusters fig.1
-      - **Screenshot 2024-08-10 065039.png**: Visualization of accident density clusters fig.2
-      - **SHAP_values.png**:  Explanations of SHAP values for Random Forest model
-      - **Team_Project_2_Presentation.pptx**
-  - **src/**:
-        - **projec_process.ipynb**
-        - **sprojec2_process.ipynb**
-        - **Visualization.ipynb**: Visualization of accident density clusters with Hospitals and daly accidents 
-  - **README.md**: info about the project
+### data/
+Contains all the datasets used in the project.
+
+- **raw/**: Original datasets.
+  - **Filtered_US_Accidents_CA.csv**: Dataset that contains GPS data needed for visualization.
+
+- **processed/**: Processed datasets for analysis.
+  - **Los_Angeles_Accidents_2016_2023.csv**: Prepared dataset to be used in the model.
+  - **LA_Accidents.csv**: Processed data (with hourly weather split).
+  - **Los_Angeles_Accidents_Aggregated_2016_2023.csv**
+  - **Los_Angeles_Accidents_Complete_2016_2023.csv**
+  - **projec_process.ipynb**
+
+### Experiments/
+Contains different models.
+
+- **Catherine_Project_2.ipynb**
+- **Catherine.ipynb**: Cross-validation model.
+- **ml_model.ipynb**: DNN model.
+- **model_dmytro.ipynb**: Regression and Random Forest models with research on dependencies of accidents with the time of day, weather, and other conditions.
+- **model_kostiantyn.ipynb**: Severity analysis.
+- **project_regression.ipynb**: Regression model.
+
+### reports/
+Contains various reports and visualizations.
+
+- **predicted_vs_actual_2_RF_LA_Accidents.png**: Predictions vs ground truth with Random Forest (Plot 2).
+- **predicted_vs_actual_RF_LA_Accidents.png**: Predictions vs ground truth with Random Forest (Plot 1).
+- **Screenshot_2024-08-10_064933.png**: Visualization of accident density clusters (Fig.1).
+- **Screenshot_2024-08-10_065039.png**: Visualization of accident density clusters (Fig.2).
+- **SHAP_values.png**: Explanations of SHAP values for Random Forest model.
+- **Team_Project_2_Presentation.pptx**: Team presentation.
+
+### src/
+Contains source code and notebooks.
+
+- **projec_process.ipynb**: Data preparation for project 1.
+- **sprojec2_process.ipynb**: Data preparation for project 2.
+- **Visualization.ipynb**: Visualization of accident density clusters with hospitals and daily accidents.
+
+### README.md
+Information about the project.
+
+
 
 ## Team Members
 - Mario	Klaes	
