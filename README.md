@@ -23,13 +23,17 @@ In this project, the US Accident Data from Kaggle is used, which provides detail
 - **Source**: [Kaggle](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents?resource=download)
 - **Coverage**: March 22, 2016 to March 31, 2023
 - **Features**:
-   - Weather conditions (temperature, humidity, precipitation, wind speed, etc.)
+   - Weather conditions (temperature, humidity, precipitation, wind speed, IsWeekend, IsHoliday etc.)
    - Number of car accidents per day in Los Angeles
 
 ## Key Questions
 1. (Primary) How does weather impact accident rates?
-2. (Secondary) What are the most common causes of accidents?
+2. (Secondary) What are the most common places of accidents?
 3. (Secondary) What times of day are most accidents likely to occur?
+4. Aid in the development of better public safety measures
+5. Preparedness for adverse weather
+6. Enhance transportation safety
+
 
 ## Workflow and Rules of Engagement
 The project workload was distributed among the team as follows:
@@ -56,12 +60,15 @@ The project workload was distributed among the team as follows:
 ## Deliverables
 - **Exploratory Data Analysis (EDA)**
 - **Regression Models**
+- **Deep Neural Network Models**
+- **Random Forest Models**
 - **Pull Requests (PRs)**
 - **README file**
+- **Project Presentation**
 - **Individual Learning Videos**
 
-## Project Structure
-The project is divided into two sprints:
+## Project Structure. part 1
+The first part of the project is divided into two sprints:
 
 ### Sprint 1: Propose and Select Dataset
 1. **Propose a dataset**: Each team member suggests a dataset for the project.
@@ -80,6 +87,10 @@ The project is divided into two sprints:
    - **Evaluate models using relevant metrics (MAE, MSE, R²).**
    - **Compare model performance and select the best model.**
 
+## Project Structure. part 2
+1. **Refine the predictors and change the approach for imputation of missing values**
+2. **Experimented with different models**
+3. **Feature impact and explanation**
 ## File Structure
 
 - **team_project/**: Root folder of the project
@@ -89,9 +100,28 @@ The project is divided into two sprints:
       - **Visualization.ipynb**: map with all accidents marked
     - **processed/**: Processed datasets for analysis.
       - **Los_Angeles_Accidents_2016_2023.csv**: prepared dataset to be used in the model 
-      - **projec_process.ipynb**: prepares data to be used in the model
-  - **Catherine.ipynb**: cross-validation model
-  - **project_regression.ipynb**: regression model
+      - **LA_Accidents.csv**: prepares data to be used in the model (with weather hourly split)
+      - **Los_Angeles_Accidents_Agreagated_2016_2023.csv**:
+      - **Los_Angeles_Accidents_Complete_2016_2023.csv**:
+      - **projec_process.ipynb**:
+- **Experiments/**: Contains different models.
+      - **Catherine Project 2.ipynb**: 
+      - **Catherine.ipynb**: cross-validation model
+      - **ml_model.ipynb**: 
+      - **model_dmytro.ipynb**: Regression and Random Forest models with researching dependencies of accidents with the time of day in combination with weather and other conditions at a certain hour
+      - **model_kostiantyn.ipynb**: 
+      - **project_regression.ipynb**: regression model
+- **reports/**:
+      - **predicted_vs_actual_2_RF_LA_Accidents.png**: Predictions vs ground truth with Random Forest plot 2
+      - **predicted_vs_actual_RF_LA_Accidents.png**: Predictions vs ground truth with Random Forest plot 1
+      - **Screenshot 2024-08-10 064933.png**: Visualization of accident density clusters fig.1
+      - **Screenshot 2024-08-10 065039.png**: Visualization of accident density clusters fig.2
+      - **SHAP_values.png**:  Explanations of SHAP values for Random Forest model
+      - **Team_Project_2_Presentation.pptx**:
+  - **src/**:
+        - **projec_process.ipynb**:
+        - **sprojec2_process.ipynb**:
+        - **Visualization.ipynb**: Visualization of accident density clusters with Hospitals and daly accidents 
   - **README.md**: info about the project
 
 ## Team Members
@@ -113,4 +143,4 @@ The project is divided into two sprints:
 - Dmytro Bonislavskyi: [Link to video](https://drive.google.com/file/d/19GTUdNVjt7_wA8mqtUuqALlqKs4x0Ff3/view?usp=drive_link)
 - Ibrahim Assi: [Link to video](https://drive.google.com/file/d/1GdZkCu0SU3DUC_JmvCm5nqeh3hsKEPCw/view?usp=sharing)
 - Yihui	Zhu: [Link to video](https://drive.google.com/file/d/1Xt4-4pRKgonygnagrWE5wF3E8ZQg3RFd/view?usp=sharing)
-- Kostiantyn Koval: [Link to video]()
+- Kostiantyn Koval: [Link to video]((https://drive.google.com/file/d/1thniOrI4PPm1inR6it7eVEff754tm84-/view?usp=drive_link))
