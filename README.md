@@ -101,15 +101,15 @@ The first part of the project is divided into two sprints:
     - **processed/**: Processed datasets for analysis.
       - **Los_Angeles_Accidents_2016_2023.csv**: prepared dataset to be used in the model 
       - **LA_Accidents.csv**: prepares data to be used in the model (with weather hourly split)
-      - **Los_Angeles_Accidents_Agreagated_2016_2023.csv**:
-      - **Los_Angeles_Accidents_Complete_2016_2023.csv**:
-      - **projec_process.ipynb**:
+      - **Los_Angeles_Accidents_Agreagated_2016_2023.csv**
+      - **Los_Angeles_Accidents_Complete_2016_2023.csv**
+      - **projec_process.ipynb**
 - **Experiments/**: Contains different models.
-      - **Catherine Project 2.ipynb**: 
+      - **Catherine Project 2.ipynb**
       - **Catherine.ipynb**: cross-validation model
-      - **ml_model.ipynb**: 
+      - **ml_model.ipynb**
       - **model_dmytro.ipynb**: Regression and Random Forest models with researching dependencies of accidents with the time of day in combination with weather and other conditions at a certain hour
-      - **model_kostiantyn.ipynb**: 
+      - **model_kostiantyn.ipynb**
       - **project_regression.ipynb**: regression model
 - **reports/**:
       - **predicted_vs_actual_2_RF_LA_Accidents.png**: Predictions vs ground truth with Random Forest plot 2
@@ -117,10 +117,10 @@ The first part of the project is divided into two sprints:
       - **Screenshot 2024-08-10 064933.png**: Visualization of accident density clusters fig.1
       - **Screenshot 2024-08-10 065039.png**: Visualization of accident density clusters fig.2
       - **SHAP_values.png**:  Explanations of SHAP values for Random Forest model
-      - **Team_Project_2_Presentation.pptx**:
+      - **Team_Project_2_Presentation.pptx**
   - **src/**:
-        - **projec_process.ipynb**:
-        - **sprojec2_process.ipynb**:
+        - **projec_process.ipynb**
+        - **sprojec2_process.ipynb**
         - **Visualization.ipynb**: Visualization of accident density clusters with Hospitals and daly accidents 
   - **README.md**: info about the project
 
